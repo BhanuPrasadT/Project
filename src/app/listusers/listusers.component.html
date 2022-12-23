@@ -1,0 +1,15 @@
+<span>listusers
+    <table border="2">
+    <tr>
+        <td>userId</td>
+        <td>Firstname</td>
+        <td>Lastname</td>
+            <td>emailId</td>
+    </tr>
+    <tr *ngFor="let users of users">
+        <td>{{users.userId}}</td>
+        <td>{{users.Firstname}}</td>
+        <td>{{users.Lastname}}</td>
+        <td>{{users.emailId}}</td>
+    </tr>
+</table></span>
