@@ -8,14 +8,12 @@ import { AddusersComponent } from './addusers/addusers.component';
 import { ListusersComponent } from './listusers/listusers.component';
 import { FormsModule } from '@angular/forms';
 import { UserService } from './user.service';
-import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AddusersComponent,
-    ListusersComponent,
-    LoginComponent
+    ListusersComponent
   ],
   imports: [
     BrowserModule,
